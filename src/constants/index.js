@@ -272,84 +272,84 @@ const projects = [
     deployment_link: 'https://josemiguelvazquez.github.io/react-figma-gpt3-app/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'React Landing Page',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'A generic SPA landing page made with React with an eye-catching design.',
     image: LandingPage,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/landing-page',
+    deployment_link: 'https://josemiguelvazquez.github.io/landing-page/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'React Issues App',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'App that lists forum posts from the latest react issues using the github API with links to the actual posts and labels showing their status.',
     image: ReactIssues,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/react-issues-app',
+    deployment_link: 'https://josemiguelvazquez.github.io/react-issues-app/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'Giphy App',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'React app that renders the trending gifs from Giphy, you can search and filter new gifs typing on the search bar.',
     image: GiphyApp,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/giphy-app',
+    deployment_link: 'https://josemiguelvazquez.github.io/giphy-app/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'To-Do List App',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'Web application made with React that lets you create a list of pending tasks and remove them if you have completed them.',
     image: ToDoList,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/to-do-list',
+    deployment_link: 'https://josemiguelvazquez.github.io/to-do-list/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'JavaScript PokéDex',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'PokéDex made with vanilla JavaScript, it shows all current pokémon using the PokeAPI and uses transitions to give it a modern look. You can open information about a specific pokémon by clicking on it, searching for it or clicking random to get one',
     image: pokedex,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/pokedex',
+    deployment_link: 'https://josemiguelvazquez.github.io/pokedex/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'ATM',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'A web bank automated teller machine that lets you check your current account balance, make deposits or withdraw money; Made with vanilla JavaScript.',
     image: ATM,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/ATM',
+    deployment_link: 'https://josemiguelvazquez.github.io/ATM/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'JavaScript Student Web',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'Web page made with JavaScript that lets you grade and register students and create classes for those students in an intuitive visual interface.',
     image: StudentWeb,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/StudentGradesWeb',
+    deployment_link: 'https://josemiguelvazquez.github.io/StudentGradesWeb/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'JS Calculator',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'A nice looking calculator made with JavaScript.',
     image: JSCalculator,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/JScalculator',
+    deployment_link: 'https://josemiguelvazquez.github.io/JScalculator/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'HTML YouTube Clone',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'YouTube 2022 interface clone, made with HTML5 and CSS3.',
     image: YoutubeClone,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/Youtube-Clone',
+    deployment_link: 'https://josemiguelvazquez.github.io/Youtube-Clone/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'JS Technical Documentation Page',
     description:
-        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+        'HTML and CSS web reference page with technical information about JavaScript.',
     image: JSTechDoc,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
-    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/JS-Technical-Documentation-Page',
+    deployment_link: 'https://josemiguelvazquez.github.io/JS-Technical-Documentation-Page/'
   }
 ]
 
