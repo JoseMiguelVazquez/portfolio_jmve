@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       {/* <ComputersCanvas /> */}
       <div className='h-full relative top-[120px] xxs:top-[90px] sm:top-[130px] flex justify-center items-center'>
-        <Blob className='relative w-60' />
+        <Blob className='relative' />
         <img src='./programming.png' alt='computer' className='hero-animation absolute w-[250px] xxs:w-[250px] sm:w-[460px] md:w-[480px] lg:w-[600px] xl:w-[680px]' />
       </div>
 
