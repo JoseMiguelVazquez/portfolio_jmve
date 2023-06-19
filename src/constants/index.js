@@ -19,11 +19,25 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  framerMotion
+  framerMotion,
+  CharacterGame,
+  QuoteMachine,
+  eCommerce,
+  TVShowsFinder,
+  drumMachine,
+  markdownPreviewer,
+  ReactFigmaGpt3,
+  LandingPage,
+  ReactIssues,
+  GiphyApp,
+  ToDoList,
+  pokedex,
+  ATM,
+  StudentWeb,
+  JSCalculator,
+  YoutubeClone,
+  JSTechDoc
 } from '../assets'
 
 export const navLinks = [
@@ -203,67 +217,139 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'React Character Game',
     description:
-        'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/'
+        'Web-based game made with React using the Disney API, with transitions made with the framer motion library, routing made with react router. Try your luck and see how many characters you can guess!',
+    image: CharacterGame,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/react-disney-quiz',
+    deployment_link: 'https://react-character-game.netlify.app/'
   },
   {
-    name: 'Job IT',
+    name: 'Random Quote Machine',
     description:
-        'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/'
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: QuoteMachine,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
   },
   {
-    name: 'Trip Guide',
+    name: 'E-Commerce',
     description:
-        'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+        'E-commerce made with React and Bootstrap using a local API (on the works), front-end finished with user creation, validation, authorization and shopping cart functionalities.',
+    image: eCommerce,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/e-commerce-react'
+  },
+  {
+    name: 'TV Show Finder',
+    description:
+        'Application that allows you to browse and find information (summary, episodes, cast) about TV shows using the TV Maze API.',
+    image: TVShowsFinder,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/series-finder',
+    deployment_link: 'https://react-tv-show-finder.netlify.app/'
+  },
+  {
+    name: 'Drum Machine',
+    description:
+        'A simple drum machine that plays precharged sounds depending on the keyboard key you press, allowing you to make some music.',
+    image: drumMachine,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/drum-machine',
+    deployment_link: 'https://jmve-react-drum-machine.netlify.app/'
+  },
+  {
+    name: 'Markdown Previewer',
+    description:
+        'Web page that lets you type GitHub flavored markdown on the editor and renders it live converting it to styled HTML.',
+    image: markdownPreviewer,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/markdown-previewer',
+    deployment_link: 'https://jmve-markup-previewer.netlify.app/'
+  },
+  {
+    name: 'Figma GPT-3 SPA Landing Page',
+    description:
+        'A SPA landing page made with React following a Figma design about a new GPT-3 app by OpenAI.',
+    image: ReactFigmaGpt3,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/react-figma-gpt3-app',
+    deployment_link: 'https://josemiguelvazquez.github.io/react-figma-gpt3-app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: LandingPage,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: ReactIssues,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: GiphyApp,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: ToDoList,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: pokedex,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: ATM,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: StudentWeb,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: JSCalculator,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: YoutubeClone,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
+  },
+  {
+    name: 'Random Quote Machine',
+    description:
+        'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
+    image: JSTechDoc,
+    source_code_link: 'https://github.com/JoseMiguelVazquez/random_quote_machine/tree/master/quote_machine',
+    deployment_link: 'https://jmve-random-quote-machine.netlify.app/'
   }
 ]
 

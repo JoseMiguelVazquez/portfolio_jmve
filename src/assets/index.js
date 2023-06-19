@@ -27,9 +27,23 @@ import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import CharacterGame from './projects_img/CharacterGame.png'
+import QuoteMachine from './projects_img/QuoteMachine.png'
+import eCommerce from './projects_img/eCommerce.png'
+import TVShowsFinder from './projects_img/TVShowsFinder.png'
+import drumMachine from './projects_img/drumMachine.png'
+import markdownPreviewer from './projects_img/markdownPreviewer.png'
+import ReactFigmaGpt3 from './projects_img/ReactFigmaGpt3.png'
+import LandingPage from './projects_img/LandingPage.png'
+import ReactIssues from './projects_img/ReactIssues.png'
+import GiphyApp from './projects_img/GiphyApp.png'
+import ToDoList from './projects_img/ToDoList.png'
+import pokedex from './projects_img/pokedex.png'
+import ATM from './projects_img/ATM.png'
+import StudentWeb from './projects_img/StudentWeb.png'
+import JSCalculator from './projects_img/JSCalculator.png'
+import YoutubeClone from './projects_img/YoutubeClone.png'
+import JSTechDoc from './projects_img/JSTechDoc.png'
 
 export {
   logo,
@@ -58,7 +72,21 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide
+  CharacterGame,
+  QuoteMachine,
+  eCommerce,
+  TVShowsFinder,
+  drumMachine,
+  markdownPreviewer,
+  ReactFigmaGpt3,
+  LandingPage,
+  ReactIssues,
+  GiphyApp,
+  ToDoList,
+  pokedex,
+  ATM,
+  StudentWeb,
+  JSCalculator,
+  YoutubeClone,
+  JSTechDoc
 }
