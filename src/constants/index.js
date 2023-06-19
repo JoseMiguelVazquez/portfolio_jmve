@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
+  bootstrap,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
+  D3,
+  cPlusPlus,
+  PostgreSQL,
+  unity,
   meta,
   starbucks,
   tesla,
@@ -22,7 +22,8 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs
+  threejs,
+  framerMotion
 } from '../assets'
 
 export const navLinks = [
@@ -73,16 +74,12 @@ const technologies = [
     icon: javascript
   },
   {
-    name: 'TypeScript',
-    icon: typescript
-  },
-  {
     name: 'React JS',
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
+    name: 'Bootstrap',
+    icon: bootstrap
   },
   {
     name: 'Tailwind CSS',
@@ -93,24 +90,32 @@ const technologies = [
     icon: nodejs
   },
   {
-    name: 'MongoDB',
-    icon: mongodb
-  },
-  {
     name: 'Three JS',
     icon: threejs
+  },
+  {
+    name: 'framerMotion',
+    icon: framerMotion
   },
   {
     name: 'git',
     icon: git
   },
   {
-    name: 'figma',
-    icon: figma
+    name: 'D3',
+    icon: D3
   },
   {
-    name: 'docker',
-    icon: docker
+    name: 'cPlusPlus',
+    icon: cPlusPlus
+  },
+  {
+    name: 'PostgreSQL',
+    icon: PostgreSQL
+  },
+  {
+    name: 'unity',
+    icon: unity
   }
 ]
 

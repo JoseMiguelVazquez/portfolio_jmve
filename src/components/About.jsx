@@ -48,7 +48,7 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-4 text-secondary text-[17px] md:text-[20px] xl:text-[25px] max-w-3xl leading-[30px] pe-5'
         >
-          I am a versatile mechatronics engineer turned software developer proficient in HTML5, CSS, JavaScript, React, C++, and SQL, with experience in frameworks like Bootstrap, Tailwind CSS and Express JS. Alongside my technical skills, I prioritize soft skills such as responsibility, empathy, teamwork, effective communication, attention to detail and proactiveness. Native in Spanish and advanced in English, I excel in multicultural environments. A fast learner with a passion for continuous growth, I bring a strong foundation in engineering, a keen eye for detail, and the ability to quickly adapt to new technologies and frameworks, making me an asset to any software development team.
+          I am a versatile mechatronics engineer turned software developer proficient in HTML5, CSS, JavaScript, React, C++, and SQL, with knowledge in Bootstrap, Tailwind CSS, D3, Framer Motion, Three, Express JS and Unity. Alongside my technical skills, I prioritize soft skills such as responsibility, empathy, teamwork, effective communication, attention to detail and proactiveness. Native in Spanish and advanced in English, I excel in multicultural environments. A fast learner with a passion for continuous growth, I bring a strong foundation in engineering, a keen eye for detail, and the ability to quickly adapt to new technologies and frameworks, making me an asset to any software development team.
         </motion.p>
         {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
