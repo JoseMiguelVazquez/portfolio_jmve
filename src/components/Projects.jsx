@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[480px]'
       >
         <div onClick={() => deployment_link ? window.open(deployment_link, '_blank') : false} className='cursor-pointer'>
           <div className='relative w-full h-[230px]'>
@@ -50,7 +50,7 @@ const ProjectCard = ({
 
           <div className='mt-5'>
             <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-            <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+            <p className='mt-2 text-secondary text-[16px]'>{description}</p>
           </div>
 
         </div>
@@ -78,7 +78,7 @@ const Projects = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

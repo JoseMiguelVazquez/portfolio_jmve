@@ -306,7 +306,7 @@ const projects = [
   {
     name: 'JavaScript PokéDex',
     description:
-        'PokéDex made with vanilla JavaScript, it shows all current pokémon using the PokeAPI and uses transitions to give it a modern look. You can open information about a specific pokémon by clicking on it, searching for it or clicking random to get one',
+        'PokéDex made with vanilla JavaScript, it shows all current pokémon using the PokeAPI and uses transitions to give it a modern look. You can open information about a specific pokémon by clicking on it, searching for it or clicking random.',
     image: pokedex,
     source_code_link: 'https://github.com/JoseMiguelVazquez/pokedex',
     deployment_link: 'https://josemiguelvazquez.github.io/pokedex/'
