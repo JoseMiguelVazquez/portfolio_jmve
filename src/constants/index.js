@@ -225,7 +225,7 @@ const projects = [
     deployment_link: 'https://react-character-game.netlify.app/'
   },
   {
-    name: 'Random Quote Machine',
+    name: 'Random Quote App',
     description:
         'Web application made with React that retrieves a random quote from the Quotable API; If you find a quote inspiring you can post it on your twitter account.',
     image: QuoteMachine,
