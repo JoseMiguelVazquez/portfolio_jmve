@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[480px]'
+        className='bg-tertiary p-5 rounded-2xl w-full sm:w-[360px] md:w-[310px] lg:w-[280px] xl:w-[320px] h-[480px] md:h-[450px] lg:h-[480px] xl:h-[460px]'
       >
         <div onClick={() => deployment_link ? window.open(deployment_link, '_blank') : false} className='cursor-pointer'>
           <div className='relative w-full h-[230px]'>
@@ -49,8 +49,8 @@ const ProjectCard = ({
           </div>
 
           <div className='mt-5'>
-            <h3 className='text-white font-bold text-[26px]'>{name}</h3>
-            <p className='mt-2 text-secondary text-[16px]'>{description}</p>
+            <h3 className='text-white font-bold text-[24px] md:text-[22px]'>{name}</h3>
+            <p className='mt-2 text-secondary text-[14px] md:text-[12px] lg:text-[13px] xl:text-[14px]'>{description}</p>
           </div>
 
         </div>
@@ -69,8 +69,8 @@ const Projects = () => {
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] md:text-[20px] xl:text-[25px] max-w-3xl leading-[30px]'
+          variants={fadeIn('', '', 0.2, 1)}
+          className='mt-3 text-secondary text-[17px] xl:text-[20px] max-w-3xl leading-[30px]'
         >
           This section showcases a diverse range of projects that highlight my skills in web development and problem-solving. Each project is briefly described with
           links to code repositories (click on github icon) and live demos in it (click on card). It reflects my ability to solve problems, work with different technologies,
@@ -78,7 +78,7 @@ const Projects = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
+      <div className='mt-20 flex flex-wrap gap-5 md:gap-3 xl:gap-6 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

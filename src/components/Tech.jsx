@@ -11,7 +11,7 @@ const Tech = () => {
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} mb-[30px]`}>Technologies.</h2>
       </motion.div>
-      <motion.div variants={fadeIn('', '', 0.1, 1)} className='flex flex-row flex-wrap justify-center gap-10'>
+      <motion.div variants={fadeIn('', '', 0.2, 1)} className='flex flex-row flex-wrap justify-center gap-10'>
         {technologies.map((technology) => (
           <div className='w-28 h-28 bg-white rounded-full flex justify-center items-center' key={technology.name}>
             <img src={technology.icon} className='w-4/6' />
