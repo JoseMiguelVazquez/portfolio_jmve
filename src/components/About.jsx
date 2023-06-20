@@ -6,7 +6,7 @@ import { styles } from '../styles'
 // import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
-import PROFILE_PIC from '../assets/PROFILE_PIC.png'
+import PROFILE_PIC from '../assets/PROFILE_PIC2.png'
 
 // const ServiceCard = ({ index, title, icon }) => (
 //   <Tilt className='xs:w-[250px] w-full'>
