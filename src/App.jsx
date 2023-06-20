@@ -14,9 +14,9 @@ const App = () => {
         <Tech />
         <Projects />
         {/* <Feedbacks /> */}
-        <div className='relative z-0'>
+        <div className='relative z-0 h-screen flex items-center xl:justify-center'>
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
