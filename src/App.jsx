@@ -18,7 +18,7 @@ const App = () => {
           <Contact />
           {/* <StarsCanvas /> */}
         </div>
-        <footer className='flex flex-col items-center pb-4 text-gray-400'>
+        <footer className='flex flex-col items-center pb-4 text-gray-400 -mt-5'>
           <p className='py-px'>
             <Link to='https://www.linkedin.com/in/jos%C3%A9-miguel-v%C3%A1zquez-espinosa-35a97691/' className='text-[14px] underline' target='_blank' rel='noreferrer'>Portfolio created by José Miguel Vázquez</Link>
           </p>
