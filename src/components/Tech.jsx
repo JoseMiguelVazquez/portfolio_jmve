@@ -1,5 +1,4 @@
 import { SectionWrapper } from '../hoc'
-// import { BallCanvas } from './canvas'
 import { technologies } from '../constants'
 import { styles } from '../styles'
 import { motion } from 'framer-motion'

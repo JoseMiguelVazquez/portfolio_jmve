@@ -9,8 +9,6 @@ import { BsGithub, BsLinkedin, BsPhone } from 'react-icons/bs'
 import { SiMaildotru } from 'react-icons/si'
 
 const Contact = () => {
-  // const [loading, setLoading] = useState(false)
-
   return (
     <div
       className='xl:mt-12 flex xl:flex-row flex-col overflow-hidden justify-center items-center w-full'

@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { ComputersCanvas, Blob } from './canvas'
+import { Blob } from './canvas'
 
 const Hero = () => {
   return (
@@ -21,7 +21,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {/* <ComputersCanvas /> */}
       <div className='h-full relative top-[120px] xxs:top-[90px] sm:top-[130px] flex justify-center items-center'>
         <Blob className='relative' />
         <img src='./programming.png' alt='programmer' className='hero-animation absolute w-[250px] xxs:w-[250px] sm:w-[460px] md:w-[480px] lg:w-[600px] xl:w-[680px]' />

@@ -1,5 +1,5 @@
 import { BrowserRouter, Link } from 'react-router-dom'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Projects, StarsCanvas } from './components'
+import { About, Contact, Hero, Navbar, Tech, Projects } from './components'
 
 const App = () => {
   return (
@@ -10,13 +10,10 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/* <Experience /> */}
         <Tech />
         <Projects />
-        {/* <Feedbacks /> */}
         <div className='h-screen flex items-center xl:justify-center'>
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
         <footer className='flex flex-col items-center pb-4 text-gray-400 -mt-5'>
           <p className='py-px'>
