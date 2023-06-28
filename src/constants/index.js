@@ -237,7 +237,8 @@ const projects = [
     description:
         'E-commerce made with React and Bootstrap using a local API (on the works), front-end finished with user creation, validation, authorization and shopping cart functionalities.',
     image: eCommerce,
-    source_code_link: 'https://github.com/JoseMiguelVazquez/e-commerce-react'
+    source_code_link: 'https://github.com/JoseMiguelVazquez/e-commerce-fake-store-API',
+    deployment_link: 'https://jmve-react-ecommerce.netlify.app/'
   },
   {
     name: 'TV Show Finder',
