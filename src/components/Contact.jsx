@@ -43,7 +43,7 @@ const Contact = () => {
                 <p className='tracking-wider'>Send an Email</p>
               </div>
             </Link>
-            <Link className='hover:translate-y-2 ease-out duration-300' to='tel:522223778989' target='_blank' rel='noreferrer'>
+            <Link className='hover:translate-y-2 ease-out duration-300' to='tel:522222528448' target='_blank' rel='noreferrer'>
               <div className='flex items-center'>
                 <BsPhone className='me-2' />
                 <p className='tracking-wider'>Call me</p>
